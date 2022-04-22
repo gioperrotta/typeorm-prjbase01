@@ -20,6 +20,9 @@ export default class Class {
   @Column()
   duration: number;
 
+  @Column()
+  desc: string;
+
   @CreateDateColumn({ name: 'created_at' })
   createdAt: Date;
 
